@@ -1,0 +1,2 @@
+class FieldSizeException(Exception):
+    pass

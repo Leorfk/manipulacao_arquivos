@@ -1,8 +1,5 @@
-from generate_small_files import gerador_de_massa
 import os
 from os import walk
-# começou a brincadeira
-gerador_de_massa()
 
 path = os.getcwdb().decode('utf-8')
 file_path = path + '/arquivinhos/'
