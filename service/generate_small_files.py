@@ -16,4 +16,4 @@ class SmallFilesProducer:
     def write_events_to_file(self, file, events, number_of_events):
         for c in range(number_of_events):
             print(f'Evento n°{c+1} registrado - hora: {datetime.now()}')
-            self.write_event_to_file(file, events(), [50, 30, 10, 10, 15])
+            self.write_event_to_file(file, events(), [30, 26, 10, 10, 15])

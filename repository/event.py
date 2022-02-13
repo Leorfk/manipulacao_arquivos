@@ -8,5 +8,5 @@ def generate_event():
         'data': str(datetime.today()),
         'CPF': randint(0, 1000000),
         'rg': randint(0, 1000000),
-        'valor_lancamento': round(randint(0, 1000000) / 3, 2)
+        'valor_lancamento': randint(0, 1000000)
     }
